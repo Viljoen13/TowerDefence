@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="GodotTD"
-run/main_scene="res://Scenes/MainMenu.tscn"
+run/main_scene="res://Scenes/TestLevel.tscn"
 config/icon="res://icon.png"
 
 [display]
@@ -30,4 +30,6 @@ enabled=PoolStringArray(  )
 
 [rendering]
 
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
 environment/default_environment="res://default_env.tres"
