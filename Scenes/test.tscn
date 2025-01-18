@@ -1,8 +1,7 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/ArcherTower.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/TileSets/new_tileset.tres" type="TileSet" id=2]
-[ext_resource path="res://Scripts/ArcherTower.gd" type="Script" id=3]
 [ext_resource path="res://Scripts/TileMap.gd" type="Script" id=4]
 [ext_resource path="res://Assets/TileImages/Blocks/blocks_4.png" type="Texture" id=5]
 [ext_resource path="res://Assets/TileImages/Blocks/blocks_2.png" type="Texture" id=6]
@@ -100,11 +99,6 @@ cell_y_sort = true
 centered_textures = true
 format = 1
 script = ExtResource( 4 )
-
-[node name="ArcherTower" parent="TileMap_people" instance=ExtResource( 1 )]
-position = Vector2( 440, 734 )
-z_index = 1
-script = ExtResource( 3 )
 
 [node name="Path2D" type="Path2D" parent="."]
 curve = SubResource( 2 )
