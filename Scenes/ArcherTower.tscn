@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/TileImages/Towers/archer.png" type="Texture" id=1]
+
+[node name="ArcherTower" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -26 )
+texture = ExtResource( 1 )
