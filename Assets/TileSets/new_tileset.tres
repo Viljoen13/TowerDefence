@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Assets/TileImages/Blocks/blocks_4.png" type="Texture" id=1]
 
-
 [resource]
 0/name = "blocks_4.png 0"
 0/texture = ExtResource( 1 )
